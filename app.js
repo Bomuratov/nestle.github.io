@@ -1,4 +1,5 @@
 let tg = window.Telegram.WebApp;
+document.getElementById('regular_link').setAttribute('href', document.getElementById('regular_link').getAttribute('href') + location.hash);
 
 tg.expand();
 
